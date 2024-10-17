@@ -1,0 +1,123 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.name {
+    color: orange;
+
+}
+
+button {
+    background-color: orange;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+#options {
+    color: orange;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    margin-right: 65px;
+    font-size: 19px;
+    color: white;
+    font-family: monospace;
+
+}
+
+.oik {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.oik:hover {
+    text-decoration: underline;
+}
+
+input {
+    border-width: 2px;
+    border-color: orange;
+    color: pink;
+    background-color: transparent;
+    padding: 8px 15px 8px 3px;
+    border-radius: 15px;
+    margin-left: 0%;
+
+}
+
+#web {
+    color: white;
+    padding: 100px 25px 0px 60px;
+    font-size: 50px;
+}
+
+#deve {
+    padding: 0px 25px 0px 60px;
+    font-size: 64px;
+    color: orange;
+}
+
+#con {
+    color: white;
+    padding: 0px 25px 0px 60px;
+    font-size: 50px;
+}
+
+#content {
+    padding: 0px 25px 0px 60px;
+    color: white;
+    line-height: 30px;
+}
+
+#join {
+    background-color: orange;
+    color: azure;
+    margin: 1px 0px 0px 60px;
+    padding: 11px 50px 11px 50px;
+    border-color: black;
+
+}
+
+.box {
+    height: 420px;
+    width: 350px;
+    background-color: black;
+    padding: 0px;
+    margin: -342px -239px -259px 822px;
+    opacity: 75%;
+    display: block;
+    position: absolute;
+
+}
+
+.login {
+    height: 43px;
+    width: 179px;
+    position: relative;
+    background-color: white;
+    padding-left: 60px;
+    border-radius: 30px;
+    font-size: 22px;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 11px;
+    margin: 20px 87px 20px 74px;
+
+}
+.user{
+    border: none; /* Remove the default border */
+    border-bottom: 3px solid #000; /* Add a bottom border */
+    padding: 10px 30px; /* Add some padding for better appearance */
+    font-size: 16px;
+    outline: none; /* Remove the outline on focus */
+    width: 70%; /* Optional: Makes the input take the full width of its container */
+    box-sizing: content-box;
+    border-bottom-color: #ffbf00
+}
